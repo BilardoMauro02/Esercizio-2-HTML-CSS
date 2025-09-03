@@ -18,6 +18,13 @@ header{
     flex-direction: column;
 }
 
+#hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-style: italic;
+}
+
 main{
     display: flex;
     flex-direction: column;
@@ -28,14 +35,29 @@ nav{
 }
 
 #service{
+    display: flex;
+    flex-direction: column;
     align-items: center;
     padding-left: 1vw;
+}
+
+details{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
 }
 
 .container{
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-bottom: 2rem;
+}
+.col{
+    flex: 1;
+    flex-direction: column;
+    text-align: center;
 }
 
 #aboutUs{
@@ -45,6 +67,7 @@ nav{
     margin: 5vw;
     padding: 2vw;
 }
+
 
 
 
