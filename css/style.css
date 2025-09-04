@@ -10,6 +10,7 @@ html{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    color: rgb(0, 0, 0);
 }
 
 .bebas-neue-regular {
@@ -82,6 +83,7 @@ summary{
 .col:hover{
     cursor: pointer;
     border-color: cadetblue;
+    text-shadow: 0 0 10px rgb(255, 0, 0);
     box-shadow: 3px 6px 100px red;
 }
 
