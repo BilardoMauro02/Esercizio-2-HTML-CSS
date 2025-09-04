@@ -3,7 +3,13 @@
     margin: 0;
     padding: 0;
     box-sizing: 0;
-    background-color: bisque;
+}
+
+html{
+    background-image: url("../img/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .bebas-neue-regular {
@@ -61,26 +67,33 @@ details:hover{
     cursor: pointer;
 }
 
+summary{
+    display: flex;
+    justify-content: center;
+}
+
 .container{
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 .col:hover{
     cursor: pointer;
-    color: cadetblue;
+    border-color: cadetblue;
+    box-shadow: 3px 6px 100px red;
 }
 
 .col{
     flex: 1;
     flex-direction: column;
     text-align: center;
-    margin: 1vw;
+    margin: 2vw;
+    padding-inline: 2vw;
+    padding-block: 1.6vw;
     border: 1px solid black;
-    border-radius: 2vw;
-
+    border-radius: 25%;
 }
 
 #aboutUs{
@@ -90,6 +103,7 @@ details:hover{
     margin: 5vw;
     padding: 2vw;
 }
+
 a:visited{
     color: black;
 }
