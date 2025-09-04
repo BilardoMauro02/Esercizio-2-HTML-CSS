@@ -48,12 +48,22 @@ details{
     text-align: center;
 }
 
+details:hover{
+    cursor: pointer;
+}
+
 .container{
     display: flex;
     flex-direction: row;
     align-items: center;
     margin-bottom: 2rem;
 }
+
+.col:hover{
+    cursor: pointer;
+    color: cadetblue;
+}
+
 .col{
     flex: 1;
     flex-direction: column;
