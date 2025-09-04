@@ -18,6 +18,15 @@ header{
     flex-direction: column;
 }
 
+ul{
+    display: flex;
+    flex-direction: row;
+}
+
+li{
+    margin-inline: 15px;
+}
+
 #hero{
     display: flex;
     flex-direction: column;
@@ -68,6 +77,10 @@ details:hover{
     flex: 1;
     flex-direction: column;
     text-align: center;
+    margin: 1vw;
+    border: 1px solid black;
+    border-radius: 2vw;
+
 }
 
 #aboutUs{
@@ -77,9 +90,6 @@ details:hover{
     margin: 5vw;
     padding: 2vw;
 }
-
-
-
-
-
-
+a:visited{
+    color: black;
+}
